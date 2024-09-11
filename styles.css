@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+main{
+    width: 100%;
+}
+body{
+    overflow-x:hidden ;
+} 
+ /* {
+    border: 1px solid red;
+    height: 100vh;
+} */
+/* ------------------------------Header--------------------------------- */
+header{
+    width: 100%;
+    background-color: rgb(20, 20, 52);
+    display: flex;
+    justify-content:space-between;
+    padding: 2%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.logo{
+    width: 20%;
+    font-size: 2.5em;
+    color:rgb(232, 155, 12);
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+.bars{
+    display: none;
+
+}
+.navsection{
+    width: 80%;
+    
+}
+.navinfo{
+    width: 100%;
+    background-color: white;
+    padding: 1em;
+    margin-left: 2.8%; 
+    margin-top: -2.8%;
+   display: flex;
+   justify-content: space-between;
+}
+.ep{
+    display: flex;
+}
+.hlinks,a{
+    width: 100%;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:2.9% ;
+}
+i,.cont{
+   color: black; 
+   font-size: small;
+}
+button{
+    border: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2vh;
+    background-color:rgb(232, 155, 12) ;
+    margin-left: 27%;
+}
+a:hover{
+    color:black ;
+    padding: 1%;
+    background-color:rgb(232, 155, 12) ;
+}
+.kk a {
+    color: black;
+    display: block;
+}
+.hiddenSection {
+    text-align: center;
+    font-weight: bold;
+    background-color:rgb(232, 155, 12) ;
+    width: 100%;
+    height: 40vh;
+    display: none;
+}
+
+/* ------------------------------------Luxury Living/Main Section------------------------------------------------------------------------------------------------ */
+.el2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.backgrounds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /* Twice the width for two images */
+    height: 100vh;
+    display: flex;
+    animation: slideBackgrounds 6s infinite;
+}
+
+.bg1, .bg2 {
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.bg1 {
+    background-image: url('carousel-1.jpg');
+    filter: brightness(50%) !important;
+}
+
+.bg2 {
+    background-image: url('carousel-2.jpg');
+    filter: brightness(50%) !important;
+
+}
+.liner {
+    background: rgba(0, 0, 0, 0.6) !important;
+    height: 100vh;
+}
+.hotel{
+    text-align: center; 
+    padding-top: 17%;
+}
+.el2,h4{
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hotel,h1{
+    font-size: 2em;
+}
+span{
+    color: rgba(255, 166, 0, 0.9);
+}
+.btn1{
+    background-color: rgba(255, 166, 0, 0.9);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+}
+.btn2{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:black;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+}
+.btn1:hover{
+    background-color:rgb(9, 9, 42) ;
+}
+.btn2:hover{
+    background-color:aqua ;
+}
+
+/* -------------------------------Register Form--------------------------- */
+.el3{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    width: 90%;
+    background-color:white;
+    position: absolute;
+    top: -30%;
+    border-radius: 30px;
+     margin-left: 5%;
+    margin-right: 5%; 
+    padding:2%;
+    box-shadow: 3px 0px 10px black;
+}
+.register input{
+    width: 350px;
+    padding: 2vh;
+    border-radius: 5vh;
+}
+.btn3{
+    margin-top: 2%;
+    /* margin-left:46%; */
+    width: 100%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 3px ;
+    margin-right: 25%;
+}
+.btn3:hover{
+background-color:rgb(9, 9, 42) ;
+}
+/* ------------------------------------About us----------------------------- */
+.el4{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: -5%;
+}
+.abt-con{
+    width: 50%;
+    margin: 5%;
+}
+.abt-us .wlc .abt-p .icon-con{
+    width: 100%;
+}
+.abt-us{
+color:rgba(255, 166, 0, 0.9) ;
+font-weight: bolder;
+padding-bottom: 2%;
+}
+.wlc{
+    color:rgb(9, 9, 42) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-bottom: 2%;
+}
+.abt-p{
+color: grey;
+padding-bottom: 2%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* padding: 10.4%; */
+}
+.icon-con{
+    display: flex;
+    gap: 2%;
+}
+.icon-box{
+    border: 2px solid grey;
+    padding: 8%;
+    text-align: center;
+}
+.num{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.rm{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn4{
+    color: white;
+    background-color:rgb(232, 155, 12) ;
+    padding: 4%;
+    margin-top: 3%;
+    font-weight: bolder;
+    margin-left: -0.6%;
+}
+img{
+    width: 60%;
+    height: 30vh;
+} 
+ .abt-img{
+    width: 50%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 5%;
+}
+.img1{
+    width: 75%;
+    height: 30vh;
+}
+.img2{
+    width: 55%;
+    height: 25vh;
+    padding-bottom: 10%;
+}
+.img3{
+    width: 55%;
+    height: 30vh;
+    padding-top: 25%;
+    padding-left: 5%;
+}
+.img4{
+    width: 75%;
+    height: 30vh;
+}
+.btn4:hover{
+    background-color:rgb(9, 9, 42) ;
+    }
+    /* .img1,.img2,.img3,.img4:hover{
+        transform: scale(1.1);
+        transition-duration: 3s;
+    } */
+/* ----------------------------Rooms-Cards-------------------------------------------------- */
+.el5{
+    width: 100%;
+    height: 100vh;
+}
+.rms{
+    text-align: center;
+    color:rgba(255, 166, 0, 0.9) ;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1%;
+}
+.hrms{
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+/* ----------------Img cards-------------------- */
+.cards1{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    width: 30%;
+    height: 80vh;
+    box-shadow: 3px 3px 10px black;
+    margin-top: 3%;
+    align-items: center;
+    overflow: hidden;
+    /* transform: translateY(-30px);
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; */
+}
+.room-cat{
+    font-size:1.3em;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(9, 9, 42) ;
+    font-weight:bolder;
+}
+.stars{
+    width: 30%;
+}
+.room1-img{
+width: 100%;
+height: 50%;
+}
+.r-details{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: 2%;
+    padding-top:2%;
+    
+}
+.r-fac{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: grey;
+    margin-top: 5%;
+    margin: 5%;
+    gap: 7%;
+}
+.r-con{
+    color: grey;
+    margin-top: 5%;
+    margin: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.btn5{
+    margin-top: 5%;
+    margin: 2%;
+    display: flex;
+    margin-left: -30%;
+}
+.btn51:hover{
+    background-color:rgb(218, 13, 34);
+}
+.btn52:hover{
+    background-color:green  !important;
+}
+.room1-img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+/* -------------------------------------Hotel----------------------------- */
+ .el6{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.el61{
+width: 50%;
+height: 70vh;
+margin-top: 5%;
+background-color:rgb(9, 9, 42) ;
+padding: 5%;
+}
+.el61,.left{
+    width: 100%;
+}
+/* .el61,.left{
+    width: 100%; 
+   padding: 5% 5% 5% 2%; 
+} */
+.el62{
+    width: 50%;
+    height: 70vh;
+}
+.el62,img{
+    width: 100%;
+    height: 70vh;
+    margin-top:3.3% ;
+}
+.l-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.font-size{
+    color: white;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2%;
+}
+.p-con{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2%;
+}
+.btn6{
+    margin-top: 10%;
+    margin: 2%;
+    display: flex;
+    margin-left: -36%;
+    padding: 2vh;
+} 
+.btn61:hover{
+background-color: crimson!important ;
+}
+.btn62:hover{
+    background-color: green !important;
+    color: white !important;
+}
+
+/* ---------------------------------Services------------------------------ */
+  .el7{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 110vh;  
+}
+.card{
+    border: 2px solid grey;
+    border: none;
+     width:90%;
+    height: 35vh;
+    text-align: center;
+    background-color: white;
+    padding: 10% 2% 5% 2% ;
+    margin:2%; 
+    /* margin-top: 2%; */
+    box-shadow: 3px 0px 10px black;
+}
+.cards2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 4%;
+}
+.el7-con{
+    padding: 5%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.el7-cont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.card:hover{
+    background-color:rgb(240, 174, 50) ;
+}
+.card:hover h3{
+    color: white;
+}
+.card:hover i{
+    color: white;
+}
+.card:hover p{
+    color: white;
+}  
+ /* -----------------------------Our Team----------------------------------------- */
+  .el8{
+    width: 100%;
+    
+ }
+ .cards3{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ .tcard1{
+    width: 290px;
+    height: 70vh;
+    box-shadow: 3px 0px 10px black;
+    margin-top: 5%;
+    overflow: hidden;
+ }
+ .team1-img{
+    width: 100%;
+    height: 70%;
+ }
+ .icons{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+ }
+ .tname{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 1.4em;
+    margin-top: 3%;
+ }
+ .tdesg{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: small;
+    margin-top: 2%;
+ }
+ .team1-img:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+ }
+  /* ------------------------------Footer-------------------------------------------  */
+  .el9{
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(9, 9, 42) ;
+    margin-top: 3%;
+ }
+ .ft-con1{
+    border: 1px solid yellow;
+    width: 25%;
+    height: 30vh;
+    background-color:rgb(232, 155, 12) ;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;  
+ }
+ .htl{
+ color:white ;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ /* margin-top: 8%; */
+ }
+ .pcon{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-top: 5%;
+    margin: 1%; */
+ }
+ .ftcol{
+    color: black;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+ }
+ /* ------------------------Contact------------------------- */
+ .ft-contact{
+   margin-top: 1%;
+ }
+ .contact{
+    color: rgb(232, 155, 12);
+ }
+ .ft-col{
+    color: white;
+    padding:3%;
+ }
+ .ft-contact,i{
+  padding: 1%;
+ }
+ /* ---------------------------company------------------------------- */
+ .ft-company{
+    margin-top: 2%;
+ }
+ .company{
+    color: rgb(232, 155, 12);
+ }
+ /* ---------------------------services--------------------- */
+ .ft-services{
+    margin-top: 2%;
+ }
+ .services{
+    color: rgb(232, 155, 12);
+ }
+ /* -------------------------copy rights---------------------- */
+.copy-r{
+    margin-top: 3%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ @keyframes slideBackgrounds{
+    0%{
+        transform:translateX(0) ;
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+ }
