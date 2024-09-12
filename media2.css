@@ -1,35 +1,6 @@
 /* ------------- Media Queries for max-width: 480px (mobile phones) ------------- */
 @media only screen and  (width<480px) {
-    /* header {
-      flex-direction: column;
-      padding: 1%;
-    }
-    .logo {
-      width: 100%;
-      font-size: 2em;
-      margin-left: 0;
-      margin-top: 2%;
-       text-align: center;
-    }
-  
-    .navsection {
-      display: none;
-    }
-
-    .bars {
-      display: block;
-      font-size: 1em;
-      color: rgb(232, 155, 12);
-      margin-top: 5%;
-    }
-    .navbar{
-      display: flex;
-      height: 9vh;
-    } */
-      /* Show hidden section when hovering over the bars */
-       
       @media only screen and (width<480px) {
-           
         .logo {
             display: inline;
             width: 100%;
@@ -60,6 +31,9 @@
           .bars{
             margin-left:350px;
           }
+          .pcon{
+            padding-top: 7%;
+          }
         }
         @media only screen and (width>=375px){
           .bars{
@@ -81,7 +55,7 @@
       height: 120vh;
   }
     .hotel {
-      padding-top: 30%;
+      padding-top: 40%;
     }
   
     h1 {
@@ -182,6 +156,11 @@
         padding-left: 5%;
     }
     /* ---------------------------------------- */
+    .el8{
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
     .tcard1{
       padding-left: 5%;
       padding-right:5% ;
