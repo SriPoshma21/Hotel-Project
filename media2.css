@@ -70,18 +70,18 @@
 
   /* -------------------------------------------- */
     .el2 {
-      height: 150vh;
+      height: 100vh;
       background-size: 100% 100%;
     }
     .bg1, .bg2{
-      height: 150vh;
+      height: 100vh;
     }
     .liner{
       background: rgba(0, 0, 0, 0.6);
       height: 120vh;
   }
     .hotel {
-      padding-top: 55%;
+      padding-top: 30%;
     }
   
     h1 {
@@ -92,8 +92,8 @@
     height: 50vh;
   }
     .register {
-      width: 100%;
-      margin-left: 0;
+      width: 80%;
+      margin-left: 10%;
       padding: 10%;
     }
   
@@ -109,12 +109,12 @@
     /* ---------------------------------------- */
     .el4{
         flex-direction: column;
-        height: 160vh;
+        height: 140vh;
         margin-top: 5%;
     }
     .abt-con {
-      width: 100%;
-      margin: 0;
+      width: 80%;
+      margin-left: 10%;
       /* padding-left:2% ;
       padding-right:2% ; */
     }
@@ -134,9 +134,12 @@
     .abt-img {
       display: grid;
       grid-template-columns: auto auto;
-      width: 100%;
+      width: 80%;
+      margin-left: 10%;
     }
-  
+    .img3{
+      padding-bottom: 5%;
+    }
     .abt-img img {
       width: 100%;
       height: auto;
